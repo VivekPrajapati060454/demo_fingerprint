@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _timeout_ms = 3000, _quality = 80;
 
   bool? _isDeviceReady;
-  Uint8List? _fpImageBytes, _fpRegisterBytes, _fpVerifyBytes;
+  Uint8List?  _fpRegisterBytes;
   ImageCaptureResult? _firstCaptureResult, _secondCaptureResult;
 
   @override
